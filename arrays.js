@@ -38,6 +38,6 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToEndOfArray(array,element){
-  arr = arr.push(element);
-  return arr;
+  array.push(element);
+  return array;
 }
