@@ -12,3 +12,22 @@ function destructivelyAddElementToBeginningOfArray(arr, beginning){
 function accessElementInArray (arr, index){
   return arr[index];
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  arr = arr.shift();
+  return arr;
+}
+
+function removeElementFromBeginningOfArray(arr){
+  arr= arr.slice(1);
+  return arr;
+}
+
+function destructivelyRemoveElementFromEndOfArray (arr){
+  arr = arr.pop();
+  return arr;
+}
+
+function removeElementFromEndOfArray(arr){
+  return arr.slice(0,arr.length-2);
+}
